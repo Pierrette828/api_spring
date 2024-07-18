@@ -21,7 +21,7 @@ public class Periodicite {
     private Integer idValidite;
     private String libelleValidite;
 
-    @OneToMany(mappedBy = "taxe")
+    @OneToMany(mappedBy = "periodicite")
     private List<Paiement> paiements;
 
 
